@@ -6,7 +6,7 @@ let baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip='
 
 // api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}&appid={API key}
 
-const key = '&appid=9e4b3b0eca603377045b7b51532fd93c';
+const key = // Token a ser utilizado na aplicação;
 
 // Create a new date instance dynamically with JS
 
