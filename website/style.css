@@ -1,0 +1,93 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 70px);
+    grid-template-areas:
+    "hd hd hd hd"
+    "ap ap ap ap"
+    "ap ap ap ap"
+    "ap ap ap ap"
+    "mr mr mr mr"
+    "mr mr mr mr"
+    "mr mr mr mr";
+    background-color: #C8CDD2;
+    gap: 10px;
+}
+
+.header {
+    grid-area: hd;
+    line-height: 1rem;
+    text-align: center;
+    color: #014052;
+    background-color: #B2CEE0;
+}
+.app {
+    grid-area: ap;
+    padding: 20px 20px 20px 20px;
+}
+
+.most_recent_entry {
+    grid-area: mr;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+}
+
+.get {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 130px;
+    background-color: white;
+    border-radius: 4px;
+    border-style:hidden;
+    box-sizing: border-box;
+}
+
+label{
+    display: flex;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10px;
+}
+
+input{
+    display: flex;
+    padding-left: 10px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    border-style:hidden;
+    box-sizing: border-box;
+}
+
+textarea{
+    display: flex;
+    padding-left: 10px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    border-style:hidden;
+    box-sizing: border-box;
+}
+
+.button {
+
+    display: flex;
+    height: 30px;
+    padding-left: 100px; /* mesmo tamanho que os elementos do tipo label */
+}
+
+button {
+
+    margin-left: .5em;
+}
